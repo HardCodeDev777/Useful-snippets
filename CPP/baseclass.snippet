@@ -1,0 +1,40 @@
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>baseclass</Title>
+      <Shortcut>baseclass</Shortcut>
+      <Description>Class with access modifiers like private, protected, public. Also with constructor and destructor. </Description>
+      <Author>HardCodeDev</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+	  <Snippet>
+		  <Declarations>
+			  <Literal>
+				  <ID>name</ID>
+				  <ToolTip>Class name</ToolTip>
+				  <Default>Human</Default>
+			  </Literal>
+		  </Declarations>
+      <Code Language="CPP"><![CDATA[
+class $name$ {
+private:
+
+protected:
+
+public:
+
+    $name$() {
+	
+	}
+	
+	~$name$() {
+	
+	}
+};
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

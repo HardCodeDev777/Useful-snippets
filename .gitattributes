@@ -1,0 +1,3 @@
+*.snippet linguist-language=XML
+*.xml linguist-detectable=true 
+*.snippet linguist-detectable=true
