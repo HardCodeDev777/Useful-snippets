@@ -24,11 +24,11 @@ using UnityEngine;
 
 public class $name$ : MonoBehaviour
 {
-    public static $name$ instance;
+    public static $name$ Instance { get; private set; }
 	
     private void Awake()
     {
-        instance = this; 
+        Instance = this; 
     }
 
     private void Start()
