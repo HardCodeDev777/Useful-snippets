@@ -1,0 +1,29 @@
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>defStructure</Title>
+      <Shortcut>defStructure</Shortcut>
+      <Description>typedef struct</Description>
+      <Author>HardCodeDev</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+    <Declarations>
+		<Literal>
+			<ID>name</ID>
+			<ToolTip>Strcut name</ToolTip>
+			<Default>Player</Default>
+		</Literal>
+	</Declarations>
+
+      <Code Language="C"><![CDATA[
+typedef struct $name$ {
+
+} $name$;
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
