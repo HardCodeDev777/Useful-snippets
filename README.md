@@ -1,6 +1,6 @@
 ﻿Some useful snippets for **Visual Studio 2022** (I use Preview version). 
 
-I'm planning to add more snippets later. Now there are 3 snippets for C++, 2 snippets for Unity and 1 snippet for C#.
+I'm planning to add more snippets later. Now there are 2 snippets for C, 3 snippets for C++, 2 snippets for Unity and 1 snippet for C#.
 
 
 <img src="Example.gif" height=400>
